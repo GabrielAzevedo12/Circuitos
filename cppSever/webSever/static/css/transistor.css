@@ -1,0 +1,249 @@
+.transistor {
+
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+
+}
+
+.basic {
+
+    font-size: 1.5rem;
+    width: 5vw;
+    height: 5vw;
+    background-color: #476286;
+    border-style: solid;
+    border-color: #b4c6dd;
+    
+}
+
+.basic:hover {
+
+    color: #b4c6dd;
+    background-color: #283b53;
+    border-radius: 5px;
+    
+}
+
+.and,
+.or {
+
+    font-size: 1.5rem;
+    width: 8vw;
+    height: 5vw;
+    
+}
+
+.and {
+
+    background-color: #478681;
+    border-style: solid;
+    border-color: #688080;
+
+}
+
+.or {
+
+    background-color: #8060bb;
+    border-style: solid;
+    border-color: #9c91aa;
+
+}
+
+.negaçao {
+
+    font-size: 1rem;
+    width: 3vw;
+    height: 3vw;
+    background-color: red;
+    border-style: solid;
+    border-color: #9c91aa;
+    border-radius: 10px;
+
+}
+
+.ligar_desligar {
+
+    width: 3vw;
+    height: 3vw;
+    background-color: #2e3742;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #443935;
+    
+}
+
+.button_ligar_desligar {
+
+    background-color: #4d3f2e;
+    
+}
+
+.on,
+.off {
+
+    font-size: 1rem;
+    
+}
+
+.on {
+
+    background-color: #267748;
+    
+}
+
+.off {
+
+    background-color: #cc3305;
+    
+}
+
+.desligado {
+
+    background-color: #773926;
+    
+}
+
+.ligado {
+
+    background-color: #2b5248;
+    
+}
+
+.entrada {
+
+    font-size: 0.7rem;
+    background-color: #272a2e;
+    width: 1vw;
+    height: 1vw;
+    position: relative;
+    text-align: center;
+    
+}
+
+.entrada_inicial {
+
+   top: 1vw;
+   color: aliceblue;
+   background-color: #272d2e;
+    
+}
+
+.entrada_inicial_1 {
+
+    top: 1vw;
+    left: -2vw;
+    color: aliceblue;
+    background-color: #272d2e;
+     
+ }
+
+ .entrada_inicial_2 {
+
+    top: -0.1vw;
+    left: 2vw;
+    color: aliceblue;
+    background-color: #272d2e;
+     
+ }
+
+.entrada_final {
+
+    background-color: #8ea6aa;
+    top: -1vw;
+    
+}
+
+.entrada_final_and,
+.entrada_final_or {
+
+    background-color: #8ea6aa;
+    top: -0.5vw;
+    
+}
+
+.entrada_inicial_negaçao,
+.entrada_inicial_ligar 
+{
+
+    top: 0.5vw;
+    color: aliceblue;
+    background-color: #272d2e;
+     
+ }
+
+ .entrada_final_negaçao,
+ .entrada_final_ligar 
+ {
+ 
+     background-color: #8ea6aa;
+     top: -0.5vw;
+     
+ }
+
+.transistors {
+
+    max-width: 0;
+    max-height: 0;
+
+}
+
+#div_lista_transistor {
+
+    width: 20vw;
+    font-size: 1.2rem;
+    color: rgb(2, 49, 235);
+    border-radius: 10px;
+    border-color: #56575c;
+    border-bottom-width: 5px;
+    position: relative;
+    
+}
+
+.filho_lista_transistor {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #121944;
+    border-bottom-width: 5px;
+
+}
+
+.filho_lista_transistor:hover {
+
+    color: rgb(144, 151, 179);
+    border-color: #f4f6ff;
+    font-size: 1.5rem;
+    box-shadow: 0px 30px 30px #f4f6ff;
+
+}
+
+#GerarTransistor {
+
+}
+
+#GerarTransistor:hover {
+
+ 
+
+}
+
+.Sinalizar_transistor {
+
+    background-color: rgb(228, 217, 197);
+  
+  }
+
+#lista_transistor_basic {
+
+    background-color: rgb(9, 16, 48);
+
+}  
+
+.lista_transistor {
+    align-items: center;
+}

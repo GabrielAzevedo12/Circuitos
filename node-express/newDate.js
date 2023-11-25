@@ -1,0 +1,2 @@
+const dataNew = "[{"id":"69bd0354-ba72-4e23-bfa3-5bc27264456e","title":"Node Express API 2","version":"0.0.2"},{"id":"6c2713d7-5719-4a34-89bd-a286ff49cfe9","Email":"teste@gmail.com","Nome_Usuário":"Teste","Senha":"123","Projetos":""},{"id":"72006977-fef2-446b-881f-ee793a4ec745","Email":"teste2@gmail.com","Nome_Usuário":"Teste2","Senha":"123","Projetos":{}}]" ;
+module.exports = {dataNew}

@@ -1,0 +1,49 @@
+[
+	{
+		"id": "69bd0354-ba72-4e23-bfa3-5bc27264456e",
+		"user_register": "",
+		"permissao_user": "0"
+	},
+	{
+		"id": "6c2713d7-5719-4a34-89bd-a286ff49cfe9",
+		"Email": "testePUT4@gmail.com",
+		"Nome_Usuário": "TestePUT4",
+		"Senha": "123",
+		"Projetos": {}
+	},
+	{
+		"id": "5f164b6a-f905-4684-b27f-729fe0253045",
+		"Email": "teste2@gmail.com",
+		"Nome_Usuário": "Teste2",
+		"Senha": "123",
+		"Projetos": {}
+	},
+	{
+		"id": "7b9b8707-ade7-40f6-8ef3-72dd3bf1064c",
+		"Email": "teste3@gmail.com",
+		"Nome_Usuário": "Teste3",
+		"Senha": "123",
+		"Projetos": {}
+	},
+	{
+		"id": "89acfcfb-e621-4553-9aed-0a13b7754e08",
+		"Email": "teste4@gmail.com",
+		"Nome_Usuário": "Teste4",
+		"Senha": "123",
+		"Projetos": {}
+	},
+	{
+		"id": "0ca04ace-95c3-4369-b0b3-8e15db236952",
+		"Email": "teste5@gmail.com",
+		"Nome_Usuário": "Teste5",
+		"Senha": "123",
+		"Projetos": {}
+	},
+	{
+		"id": "0e0aae39-7be6-4bfe-bcdb-c98b9c18e255",
+		"Email": "teste6@gmail.com",
+		"Nome_Usuário": "Teste6",
+		"Senha": "123",
+		"Projetos": {}
+	}
+]

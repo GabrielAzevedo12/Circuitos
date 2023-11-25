@@ -1,0 +1,115 @@
+#Tid_Principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 10vh;
+    color: #7F8FD0;
+    background: linear-gradient(#2929D5 10%, #162666);   
+}
+#div_Users {
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    width: 99vw;
+    height: 50vw;
+    color: #C3C3F7;
+    background: linear-gradient(#162666,#17176B);
+}
+body {
+    background: #162666;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+}
+
+.nullDimensoes {
+  max-width: 1px;
+}
+
+.displayTrue {
+
+   display: flex;
+
+}
+
+.displayFalse {
+
+  display: none;
+
+}
+
+#id_user {
+
+    color: white;
+    width: 30vw;
+    height: 5vh;
+    background: black;
+
+}
+
+label {
+
+    font-size: 1.2rem;
+    color: white;
+    width: 30vw;
+    height: 5vh;
+    background: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 10px;
+
+}
+
+#id_user,
+label 
+{
+
+    padding: 10px;
+    margin: 10px;
+    width: 30vw;
+    height: 5vh;
+    background: #18181c;
+    color: #a198b5;
+
+}
+
+#button_buscar_id {
+
+    font-size: 1.2rem;
+    color: #dbc1c1;
+    width: 10vw;
+    height: 10vh;
+    background: #0e1b26;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+#div_id_user
+{
+
+    width: 99vw;
+
+}

@@ -1,0 +1,67 @@
+#Controle {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+}
+.Buttons_Controle {
+
+    font-size: 1.5rem;
+    color: black;
+    background: #FF5858;
+    border-radius: 10px;
+    border-color: gray;
+    border-bottom-width: 5px;
+    position: relative;
+
+}
+
+.Buttons_Controle:hover {
+
+    font-size: 1.6rem;
+    color: white;
+    background: gray;
+    border-radius: 10px;
+    border-color: white;
+    border-bottom-width: 5px;
+
+}
+
+#LigarPontos {
+
+    background: #956783;
+
+}
+
+.ButtonsAtivado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    background: #4A4F68;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+    height: 5vh;
+}
+
+.ButtonsAtivado:hover {
+    box-shadow: 0px 30px 30px #120937;
+    background: #9084c4;
+    color: white;
+    z-index: 3;
+}
+
+.buttonsFalse {
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+    border-bottom-width: 5px;
+    background-color: rgb(199, 71, 48);
+    box-shadow: 10px 5px 5px red;
+
+}

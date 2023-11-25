@@ -1,0 +1,97 @@
+.retas {
+
+    position: absolute; 
+    width: 0;
+    height: 0;
+
+}
+
+#div_retas_perpendiculares {
+
+    position: absolute; 
+    width: 0;
+    height: 0;
+
+}
+
+.reta_horizontal,
+.reta_vertical {
+
+    position: absolute; 
+    background: #6898be;
+    z-index: 3;
+
+}
+
+.reta_horizontal {
+
+    height: 0.25vw;
+    width: 20vw;
+
+}
+
+.reta_vertical {
+
+    width: 0.25vw;
+    height: 3vw;
+
+}
+
+.gerarCorrente {
+
+    background: #ffe573;
+
+}
+
+.gerarCorrente_transistor {
+
+    border-style: solid;
+    border-color: #ffe573;
+
+}
+
+#div_Retas {
+
+    width: 20vw;
+    font-size: 1.2rem;
+    color: rgb(0, 1, 5);
+    position: relative;
+
+}
+
+#div_lista_retas {
+
+    width: 20vw;
+    font-size: 1.2rem;
+    color: rgb(0, 1, 5);
+    position: relative;
+
+}
+
+#div_lista_retas:hover {
+
+ box-shadow: 0px 30px 30px #120937;
+
+}
+
+.filho_lista_retas {
+
+    background: #1f1d27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #121944;
+    border-bottom-width: 5px;
+
+}
+
+.filho_lista_retas:hover {
+
+    color: rgb(242, 242, 243);
+    border-color: #f4f6ff;
+    font-size: 1.5rem;
+    box-shadow: 0px 30px 30px #f4f6ff;
+
+}

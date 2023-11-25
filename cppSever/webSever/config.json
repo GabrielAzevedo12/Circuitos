@@ -1,0 +1,16 @@
+{
+
+     "rootFolder" : "./static",
+     "defaultIndex" : "/Cpp.html",
+     "types" : {
+
+           "html" : "text/html",
+           "jpg" : "image/jpg",
+           "jpeg" : "image/jpeg",
+           "png" : "image/png",
+           "css" : "text/css",
+           "js" : "text/javascript",
+           "json" : "application/json"
+
+         }
+    }

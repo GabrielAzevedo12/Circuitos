@@ -1,0 +1,20 @@
+[
+	{
+		"id": "69bd0354-ba72-4e23-bfa3-5bc27264456e",
+		"ip": "0",
+		"user_associado": "0"
+	},
+	{
+		"id": "7ae6c421-c16c-418a-8670-05f967a2e90a",
+		"ip": "179.63.113.56",
+		"date_last_register": "undefined, Thu Oct 12 2023 12:40:48 GMT-0300 (Horário Padrão de Brasília):from:teste2@gmail.com",
+		"date_last_logout": ", Thu Oct 12 2023 12:04:10 GMT-0300 (Horário Padrão de Brasília):from:teste2@gmail.com, Thu Oct 12 2023 12:04:48 GMT-0300 (Horário Padrão de Brasília):from:teste2@gmail.com, Thu Oct 12 2023 12:34:21 GMT-0300 (Horário Padrão de Brasília):from:teste2@gmail.com, Thu Oct 12 2023 12:37:59 GMT-0300 (Horário Padrão de Brasília):from:teste2@gmail.com, Thu Oct 12 2023 12:40:09 GMT-0300 (Horário Padrão de Brasília):from:teste3@gmail.com",
+		"user_associado": {
+			"id": "5f164b6a-f905-4684-b27f-729fe0253045",
+			"Email": "teste2@gmail.com",
+			"Nome_Usuário": "Teste2",
+			"Senha": "123",
+			"Projetos": {}
+		}
+	}
+]

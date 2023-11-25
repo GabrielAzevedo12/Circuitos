@@ -1,0 +1,37 @@
+.input_transistor {
+
+    width: 20vw;
+    font-size: 1.2rem;
+    color: black;
+    background: #414FA4;
+    border-radius: 10px;
+    border-color: #1E265A;
+    border-bottom-width: 5px;
+    position: relative;
+}
+
+.input_transistor:hover {
+
+ box-shadow: 0px 30px 30px #120937;
+
+
+}
+
+.button_input_transistor {
+
+    width: 10vw;
+    font-size: 1.2rem;
+    color: white;
+    background: #240F79;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+}
+
+.button_input_transistor:hover {
+
+ box-shadow: 0px 30px 30px #120937;
+
+
+}

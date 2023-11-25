@@ -1,0 +1,27 @@
+#ExibirlistaHeader_id {
+
+}
+.ExibirlistaHeader_class {
+    position: relative;
+    height: 5vh;
+    width: 5vw;
+}
+#div_ExibirlistaHeader,
+#lista_Header 
+{
+}
+#div_Header {
+    background-color: rgb(27, 35, 39);
+    color: rgb(196, 230, 230);
+    height: 5vh;
+}
+#div_HeaderConfg,
+#div_ExibirlistaHeader {
+    
+}
+.listaHeader_Controle,
+#lista_Header {
+    position: relative;
+    height: 5vh;
+    width: 10vw;
+}

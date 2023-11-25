@@ -1,0 +1,22 @@
+#!/bin/bash/
+
+l=$1
+l2=$2
+stringUp=""
+
+for ((i=1; i<=$l; i++))
+    do
+
+        for ((j=1; j<=$l2; j++))
+           do
+
+                string="<div id=\"fila_xyP${i}\"> 
+                           <div id=\"Px${j}Py${i}\" class=\"Caixa_xy Caixa_xyP${i}\"></div>
+                        </div>"
+                stringUp="${stringUp}${string}\n"
+
+           done
+
+    done
+
+echo -e "$stringUp"    

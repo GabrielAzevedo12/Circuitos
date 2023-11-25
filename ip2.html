@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Getting Clients IP</title>
+    <style>
+        form {
+            color: green;
+        }
+    </style>
+  </head>
+  
+<body>
+    <center>
+       <form method="post" action="" name="myform">
+         <input type="text" name="ipaddr" readonly>
+       </form>
+    </center>
+    <script language="javascript">
+      var ip = '<!--#echo var="REMOTE_ADDR"-->'
+      function ipval() {
+        document.myform.ipaddr.value=ip;
+      }
+      window.onload=ipval
+    </script>
+</body>
+  
+</html>

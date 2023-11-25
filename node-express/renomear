@@ -1,0 +1,41 @@
+#!/bin/bash
+
+nomeArquivo=$1;
+newNomeArquivo=$2 ;
+dir=$3; 
+
+if [ "$dir" = '' ] 
+    then  
+        cat "$nomeArquivo" > "$newNomeArquivo" ;
+        rm -rf "$nomeArquivo";
+
+else 
+        "$nomeArquivo" > "$dir/$newNomeArquivo" ;
+        rm -rf "$nomeArquivo";      
+fi
+
+#Exemplo
+#echo "testeRenomear1" > testeRenomear1.txt
+#. renomear testeRenomear1.txt testeRenomear3.txt
+
+renomear () {
+
+nomeArquivo=$1;
+newNomeArquivo=$2 ;
+dir=$3; 
+
+if [ "$dir" = '' ] 
+    then  
+        cat "$nomeArquivo" > "$newNomeArquivo" ;
+        rm -rf "$nomeArquivo";
+
+else 
+        "$nomeArquivo" > "$dir/$newNomeArquivo" ;
+        rm -rf "$nomeArquivo";      
+fi
+
+#Exemplo
+#echo "testeRenomear1" > testeRenomear1.txt
+#. renomear testeRenomear1.txt testeRenomear3.txt
+
+}

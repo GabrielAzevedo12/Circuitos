@@ -1,0 +1,22 @@
+.entrada {
+
+    border-style: solid;
+    border-color: rgb(127, 105, 167);
+    border-width: 0.0001px;
+
+}
+.entrada1_ativada {
+
+    border-style: solid;
+    border-color: rgb(177, 130, 92);
+    border-width: 0.0001px;
+
+}
+
+.entrada2_ativada {
+
+    border-style: solid;
+    border-color: rgb(143, 192, 192);
+    border-width: 0.0001px;
+
+}

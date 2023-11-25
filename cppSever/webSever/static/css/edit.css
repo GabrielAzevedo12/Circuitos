@@ -1,0 +1,151 @@
+#div_Edit {
+   
+}
+/*Buttons_Edit_1*/
+.Buttons_Edit {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(157, 176, 197);
+    background: #09041d;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+    height: 5vh;
+
+}
+
+.Buttons_Edit:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #9084c4;
+    color: black;
+    z-index: 3;
+   
+}
+
+.Buttons_Edit_1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(157, 176, 197);
+    background: #09041d;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+
+}
+
+.Buttons_Edit_1:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #9084c4;
+    color: black;
+    z-index: 3;
+   
+}
+
+.Buttons_Edit_2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #E9C9C9;
+    background: #694F80;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+
+}
+
+.Buttons_Edit_2:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #4A4040;
+    color: #EFCFCF;
+    z-index: 3;
+   
+}
+
+.Buttons_Edit_3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #1B2F33;
+    background: #CFEAEF;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+    width: 100%;
+
+}
+
+.Buttons_Edit_3:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #1B2F33;
+    color: #CFEAEF;
+    z-index: 3;
+   
+}
+
+.Buttons_Edit_4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #B5D3DE;
+    background: #3C6C7D;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+    width: 100%;
+
+}
+
+.Buttons_Edit_4:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #B5D3DE;
+    color: #3C6C7D;
+    z-index: 3;
+   
+}
+
+.Buttons_Edit_5 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #37474A;
+    background: #B3EBF6;
+    border-radius: 10px;
+    border-color: #210E6F;
+    border-bottom-width: 5px;
+    position: relative;
+    width: 20vw;
+
+}
+
+.Buttons_Edit_5:hover {
+
+    box-shadow: 0px 30px 30px #120937;
+    background: #37474A;
+    color: #B3EBF6;
+    z-index: 3;
+   
+}

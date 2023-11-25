@@ -1,0 +1,153 @@
+<div id="transistor_teste" class="transistor basic flex-column">
+                  <div id="entrada_final_transistor_teste" class="entrada entrada_final">F</div>
+                  <div id="text_transistor_teste" class="text_transistor"> Basic </div>
+                  <div id="entrada_inicial_transistor_teste" class="entrada entrada_inicial">I</div>
+                </div>
+                <div id="transistor_ligar" class="transistor ligar_desligar off flex-column droptarget">
+                  <div id="entrada_final_transistor_ligar" class="entrada entrada_final_ligar">F</div>
+                  <div id="text_transistor_ligar" class="text_transistor"> Off </div>
+                  <div id="entrada_inicial_transistor_ligar" class="entrada entrada_inicial_ligar flex-column">I</div>
+                </div>
+              </div>
+             
+              let width_horizontal_1 = (x1 + w1*0.5) - (x2 + w2*0.5),
+              reta_horizontal_1_pos = reta_horizontal_1.element.getBoundingClientRect(),
+              posiçao_horizontal_1_x = (x2 + w2*0.5) - reta_horizontal_1_pos.left,
+              posiçao_horizontal_1_y = (reta_vertical_1_pos.top + reta_vertical_1_pos.height) - (reta_horizontal_1_pos.top);
+          
+              intNegativo(width_horizontal_1) ? width_horizontal_1 = -1*( (x1 + w1*0.5) - (x2 + w2*0.5) ) :
+              width_horizontal_1 = (x1 + w1*0.5) - (x2 + w2*0.5) ;   
+              
+              let
+negativo_horizontal_1_s1 = () => {
+    
+        console.log("negativo_horizontal_1_s1")
+
+//-----------------------------------------------------------------------------------------------------        
+        let 
+        height_vertical_1 = ( (y2_parent + w2_parent) - (y1_parent + w1_parent) ) + (vw + constante_entrada),
+        reta_vertical_1_pos = reta_vertical_1.element.getBoundingClientRect(),
+        posiçao_vertical_1_x = w1*0.5 - reta_vertical_1_pos.width*0.5,
+        posiçao_vertical_1_y = h1;
+
+        intNegativo(height_vertical_1) ? height_vertical_1 = -1*(height_vertical_1) :
+        height_vertical_1 = height_vertical_1 ; 
+            
+        e1.append(reta_vertical_1.element);
+        fgs.S2(reta_vertical_1.element, "height", height_vertical_1 + "px");
+        fgs.S2(reta_vertical_1.element, "top", posiçao_vertical_1_y + "px");
+        fgs.S2(reta_vertical_1.element, "left", posiçao_vertical_1_x + "px");
+        fgs.S2(reta_vertical_1.element,"position","absolute");
+            
+        reta_vertical_1_pos = reta_vertical_1.element.getBoundingClientRect();
+            
+//-----------------------------------------------------------------------------------------------------
+            
+        let 
+        width_horizontal_1 = (x1 + w1*0.5) - (x2 + w2*0.5);
+            
+        intNegativo(width_horizontal_1) ? width_horizontal_1 = -1*(width_horizontal_1) :
+        width_horizontal_1 = width_horizontal_1 ; 
+            
+        let 
+        reta_horizontal_1_pos = reta_horizontal_1.element.getBoundingClientRect(),
+        posiçao_horizontal_1_y = h1 + reta_vertical_1_pos.height + 0.0001,
+        posiçao_horizontal_1_x = -1*(width_horizontal_1 - w1*0.5);
+
+        e1.append(reta_horizontal_1.element);
+
+        fgs.S2(reta_horizontal_1.element, "width", width_horizontal_1 + "px");
+        fgs.S2(reta_horizontal_1.element, "top", posiçao_horizontal_1_y + "px");
+        fgs.S2(reta_horizontal_1.element, "left", posiçao_horizontal_1_x + "px");
+        fgs.S2(reta_horizontal_1.element,"position","absolute");
+
+        reta_horizontal_1_pos = reta_horizontal_1.element.getBoundingClientRect();
+
+//-----------------------------------------------------------------------------------------------------
+
+        let 
+        height_vertical_2 = reta_horizontal_1_pos.top - (y2 + h2);
+
+        intNegativo(height_vertical_2) ? height_vertical_2 = -1*(height_vertical_2) :  
+        height_vertical_2 = height_vertical_2 ;  
+
+        let 
+        reta_vertical_2_pos = reta_vertical_2.element.getBoundingClientRect(),
+        posiçao_vertical_2_x = w2*0.5 - reta_vertical_2_pos.width*0.5,
+        posiçao_vertical_2_y = h2;
+
+        e2.append(reta_vertical_2.element);
+        fgs.S2(reta_vertical_2.element, "height", height_vertical_2 + "px");
+        fgs.S2(reta_vertical_2.element, "top", posiçao_vertical_2_y + "px");
+        fgs.S2(reta_vertical_2.element, "left", posiçao_vertical_2_x + "px");
+        fgs.S2(reta_vertical_2.element,"position","absolute");
+
+
+    },
+
+negativo_horizontal_1_s2 = () => {
+
+        console.log("negativo_horizontal_1_s2")
+
+//-----------------------------------------------------------------------------------------------------        
+
+let 
+        height_vertical_1 = ( (y2 + w2) - (y1 + w1) ) + (vw + constante_entrada),
+        reta_vertical_1_pos = reta_vertical_1.element.getBoundingClientRect(),
+        posiçao_vertical_1_x = w1*0.5 - reta_vertical_1_pos.width*0.5,
+        posiçao_vertical_1_y = h1;
+            
+        intNegativo(height_vertical_1) ? height_vertical_1 = -1*(height_vertical_1) :
+        height_vertical_1 = height_vertical_1 ; 
+
+        e1.append(reta_vertical_1.element);
+        fgs.S2(reta_vertical_1.element, "height", height_vertical_1 + "px");
+        fgs.S2(reta_vertical_1.element, "top", posiçao_vertical_1_y + "px");
+        fgs.S2(reta_vertical_1.element, "left", posiçao_vertical_1_x + "px");
+        fgs.S2(reta_vertical_1.element,"position","absolute");
+            
+        reta_vertical_1_pos = reta_vertical_1.element.getBoundingClientRect();
+            
+//-----------------------------------------------------------------------------------------------------
+            
+        let 
+        width_horizontal_1 = (x1 + w1*0.5) - (x2 + w2*0.5);
+            
+        intNegativo(width_horizontal_1) ? width_horizontal_1 = -1*(width_horizontal_1) :
+        width_horizontal_1 = width_horizontal_1 ; 
+            
+        let 
+        reta_horizontal_1_pos = reta_horizontal_1.element.getBoundingClientRect(),
+        posiçao_horizontal_1_y = h1 + reta_vertical_1_pos.height + 0.0001,
+        posiçao_horizontal_1_x = (w1*0.5);
+
+        e1.append(reta_horizontal_1.element);
+
+        fgs.S2(reta_horizontal_1.element, "width", width_horizontal_1 + "px");
+        fgs.S2(reta_horizontal_1.element, "top", posiçao_horizontal_1_y + "px");
+        fgs.S2(reta_horizontal_1.element, "left", posiçao_horizontal_1_x + "px");
+        fgs.S2(reta_horizontal_1.element,"position","absolute");
+
+        reta_horizontal_1_pos = reta_horizontal_1.element.getBoundingClientRect();
+
+//-----------------------------------------------------------------------------------------------------
+
+        let 
+        height_vertical_2 = reta_horizontal_1_pos.top - (y2 + h2);
+
+        intNegativo(height_vertical_2) ? height_vertical_2 = -1*(height_vertical_2) :  
+        height_vertical_2 = height_vertical_2 ;  
+
+        let 
+        reta_vertical_2_pos = reta_vertical_2.element.getBoundingClientRect(),
+        posiçao_vertical_2_x = w2*0.5 - reta_vertical_2_pos.width*0.5,
+        posiçao_vertical_2_y = h2;
+
+        e2.append(reta_vertical_2.element);
+        fgs.S2(reta_vertical_2.element, "height", height_vertical_2 + "px");
+        fgs.S2(reta_vertical_2.element, "top", posiçao_vertical_2_y + "px");
+        fgs.S2(reta_vertical_2.element, "left", posiçao_vertical_2_x + "px");
+        fgs.S2(reta_vertical_2.element,"position","absolute");
+
+
+    };

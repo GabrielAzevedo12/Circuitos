@@ -1,0 +1,40 @@
+.Redimensionar {
+
+    background: #887BC7;
+    /*opacity: 50%;*/
+    /*z-index: 5;*/
+    position: relative;
+
+}
+
+.Redimensionar:hover {
+
+    background: #beb8db;
+    /*opacity: 50%;*/
+    z-index: 6;
+
+}
+
+.vertice_Redimensionar {
+
+    background: #1a4441;
+    z-index: 6;
+    position: relative;
+    width: 1vw;
+    height: 1vw;
+
+}
+
+.vertice_Redimensionar:hover {
+    
+    background: #b2cfcd;
+    width: 1.1vw;
+    height: 1.1vw;
+    border-radius: 10px;
+
+}
+
+#elementosRedimensionar {
+    max-width: 0;
+    max-height: 0;
+}

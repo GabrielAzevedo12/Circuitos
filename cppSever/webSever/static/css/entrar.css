@@ -1,0 +1,74 @@
+#div_formularioEntrar {
+
+}
+
+#div_email {
+
+}
+
+#div_password {
+    
+}
+
+#Button_Entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    color: rgb(103, 173, 173);
+    background-color: rgb(22, 21, 21);
+}
+
+#Button_Entrar:hover {
+    color: rgb(217, 221, 221);
+    background-color: rgb(129, 122, 122);
+}
+
+label,
+#email,
+#password {
+    width: 30vw;
+    margin: 5px;
+    background: linear-gradient(rgb(26, 15, 15) 10%, rgb(39, 17, 17));
+    color: rgb(133, 182, 182);
+    border-radius: 5px;
+}
+
+label,
+#div_email,
+#div_password {
+    background: rgb(78, 70, 70);
+}
+#password {
+    
+}
+
+body {
+    background: rgb(78, 70, 70);
+}
+
+#FormularioEntrar {
+
+    height: 60vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#TidFormularioEntrar {
+    color: rgb(186, 207, 211);
+    display: flex;
+    justify-content: center;
+}
+
+#div_Button_Entrar {
+    display: flex;
+    justify-content: center;
+}
+
+#Button_Entrar {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}

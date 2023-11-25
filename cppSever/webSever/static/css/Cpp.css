@@ -1,0 +1,173 @@
+html {
+  max-height: 100vh;
+}
+
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 99vw;
+  max-height: 120vh;
+}
+
+#root {
+  
+  width: 99vw;
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'nav nav nav nav nav nav'
+  'main main main main main main'
+  'footer footer footer footer footer footer'
+  ;
+
+}
+
+#Cpp {
+/*
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  */
+  width: 99vw;
+  grid-area: Cpp;
+  background-color:black;
+
+}
+
+#TidMain {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  grid-area: TidMain;
+  background-color: rgb(27, 35, 39);
+  color: rgb(196, 230, 230);
+
+}
+
+header {
+
+  width: 99vw;
+  height: 10vh;
+  background-color: gray;
+  grid-area: header;
+
+}
+
+main {
+
+  background-color: black;
+  width: 99vw;
+  grid-area: main;
+
+}
+
+main {
+
+  display: grid;
+  grid-template-areas:
+  'TidMain TidMain TidMain TidMain TidMain TidMain'
+  'Cpp Cpp Cpp Cpp Cpp Cpp'
+  'Cpp Cpp Cpp Cpp Cpp Cpp';
+
+}
+
+footer {
+
+  background-color: pink;
+  width: 99vw;
+  grid-area: footer;
+
+}
+
+nav {
+
+  width: 99vw;
+  height: 10vh;
+  grid-area: nav;
+  background-color: rgb(27, 35, 39);
+  color: rgb(196, 230, 230);
+
+}
+
+header {
+  background-color: rgb(27, 35, 39);
+  color: rgb(196, 230, 230);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nullDimensoes {
+  max-width: 0;
+  max-height: 0;
+}
+
+/*    
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.displayTrue {
+
+   display: flex;
+
+}
+
+.displayFalse {
+
+  display: none;
+
+}
+
+#myCanvas {
+
+  width: 99vw;
+  height: 100vh;
+  display: none;
+
+}
+
+textarea {
+  background: #3D3949;
+  color: #CDC6E1;
+}
+textarea:hover {
+  box-shadow: 0px 0px 30px 30px #2C2B2E;
+
+}
+

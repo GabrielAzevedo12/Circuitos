@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html lang='pt-br'>
+
+<head>
+  <title> Título Aba de Navegação Cpp </title>
+  <meta charset='utf-8'>
+  <meta name='description' content='Página do Burnes sobre HTML e CSS'>
+  <meta name='keywords' content='html, css, js, site'>
+  <meta name='robots' content='Cpp'>
+  <link rel='stylesheet' type='text/css' href='./css/Cpp.css'>
+  <link rel='stylesheet' type='text/css' href='./css/plano.css'>
+  <link rel='stylesheet' type='text/css' href='./css/controle.css'>
+  <link rel='stylesheet' type='text/css' href='./css/canvas.css'>
+  <link rel='stylesheet' type='text/css' href='./css/input_reta.css'>
+  <link rel='stylesheet' type='text/css' href='./css/input_transistor.css'>
+  <link rel='stylesheet' type='text/css' href='./css/transistor.css'>
+  <link rel='stylesheet' type='text/css' href='./css/reta.css'>
+  <link rel='stylesheet' type='text/css' href='./css/Deslocar.css'>
+  <link rel='stylesheet' type='text/css' href='./css/entrada.css'>
+  <link rel='stylesheet' type='text/css' href='./css/perpendicular.css'>
+  <link rel='stylesheet' type='text/css' href='./css/quadro.css'>
+  <link rel='stylesheet' type='text/css' href='./css/gerar.css'>
+  <link rel='stylesheet' type='text/css' href='./css/edit.css'>
+  <link rel='stylesheet' type='text/css' href='./css/header.css'>
+  <link rel='stylesheet' type='text/css' href='./css/ElementoHtml.css'>
+  <link rel='stylesheet' type='text/css' href='./css/alterarDimensoesElemento.css'>
+  <link rel='stylesheet' type='text/css' href='./css/Redimensionar.css'>
+  <link rel='stylesheet' type='text/css' href='./css/menuManipulacaoHtml.css'>
+  <link rel='stylesheet' type='text/css' href='./css/div_Manipulacao.css'>
+  <link rel='stylesheet' type='text/css' href='./css/div_AtivarDeslocamento.css'>
+</head>
+
+<body>
+  <section id=root>
+
+    <header>
+      <div id="div_Header" class="flex-row-reverse">
+        <div id="div_HeaderConfg" class="flex-column">
+          <div id="div_ExibirlistaHeader" class="flex-row-reverse"> 
+            <div id="ExibirlistaHeader_id"   class="Buttons_Edit ExibirlistaHeader_class"> Exibir </div> 
+          </div>
+          <div id="lista_Header" class="flex-column displayFalse">
+            <div id="listaHeader_User"   class="listaHeader_Controle Buttons_Edit"> Usuário </div>
+            <div id="listaHeader_perfil"  class="listaHeader_Controle Buttons_Edit"> Perfil </div>
+            <div id="listaHeader_Config"  class="listaHeader_Controle Buttons_Edit"> Configurações </div>
+            <div id="listaHeader_Sair"  class="listaHeader_Controle Buttons_Edit"> Sair </div>
+          </div>
+        </div>
+        <div id="div_Edit" class="flex-row">
+          <div id="Button_newProject"  class="center Buttons_Controle Buttons_Edit"> Novo Projeto </div>
+          <div id="Button_saveProject"  class="center Buttons_Controle Buttons_Edit"> Salvar Projeto </div>
+          <div id="Button_openProject"  class="center Buttons_Controle Buttons_Edit"> Abrir Projeto </div>
+          <div id="Button_Redimensionar"  class="center Buttons_Controle Buttons_Edit"> Redimensionar </div>
+          <div id="Button_Text"  class="center Buttons_Controle Buttons_Edit">  Novo Texto </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <a href='Cpp.html' title='Home'> Home NavBar </a>
+      <a href='entrar.html' title='Entre'> Entre aqui </a>
+      <a href='cadastro.html' title='Entre'> Cadastre-se aqui </a>
+    </nav>
+    <main>
+
+      <h1 id='TidMain'class='animationMainTítulo'> Olá! Bem vindo a minha Pagina! (Main)</h1>
+      <div id='Cpp'> 
+            <div id="Plano">
+              <div id="Grade_xy" class="displayTrue">
+              </div>
+              <div class="pontos">
+              </div>
+              <div class="retas">
+              </div>
+              <div id="div_retas_perpendiculares">
+              </div>
+              <div class="transistors">
+              </div>
+              <div id="Controle">
+                  <div id="div_Manipulaçao" class="flex-column">
+                    <div id="div_AtivarDeslocamento" class="flex-column">
+                      <div id="AtivarDeslocamentoClick"  class="center Buttons_Controle Buttons_Edit"> Ativar Deslocamento pelo Click </div>
+                      <div id="AtivarDeslocamentoMouse"  class="center Buttons_Controle Buttons_Edit"> Ativar Deslocamento pelo Mouse </div>
+                    </div>
+                  </div>
+                  <div id="div_Retas" class="flex-column div_Gerar">
+                       <div id="GerarRetas"  class="center Buttons_Controle GerarRetas Buttons_Gerar"> Gerar Reta </div>
+                       <div id="div_lista_retas" class="flex-column displayFalse">
+                      </div>
+                  </div>
+                  <div id="div_Transistor" class="flex-column div_Gerar">
+                    <div id="GerarTransistor"  class="center Buttons_Controle GerarTransistor Buttons_Gerar"> Gerar Transistor </div>
+                    <div id="div_lista_transistor" class="flex-column displayFalse">
+                      <div id="transistor_basic" typeTransistor="basic"> 
+                        <div id="titulo_basic" class="filho_lista_transistor">
+                          BASIC 
+                        </div>  
+                        <div id="lista_transistor_basic" class="flex-column lista lista_transistor displayFalse">
+                        </div>
+                      </div>
+                      <div id="transistor_and" typeTransistor="and"> 
+                        <div id="titulo_and" class="filho_lista_transistor">
+                          AND
+                        </div>
+                        <div id="lista_transistor_and" class="flex-column lista lista_transistor displayFalse">
+                        </div>
+                      </div>
+                      <div id="transistor_or" typeTransistor="or"> 
+                        <div id="titulo_or" class="filho_lista_transistor">
+                          OR
+                        </div>
+                        <div id="lista_transistor_or" class="flex-column lista lista_transistor displayFalse">
+                        </div>
+                      </div>
+                      <div id="transistor_ligarDesligar" typeTransistor="ligarDesligar"> 
+                        <div id="titulo_ligarDesligar" class="filho_lista_transistor">
+                          LIGAR DESLIGAR
+                        </div>
+                        <div id="lista_transistor_ligarDesligar" class="flex-column lista lista_transistor displayFalse">
+                        </div>
+                      </div>
+                      <div id="transistor_negaçao" typeTransistor="~"> 
+                        <div id="titulo_negaçao" class="filho_lista_transistor">
+                          NEGAÇÃO
+                        </div>
+                        <div id="lista_transistor_negaçao" class="flex-column lista lista_transistor displayFalse">
+                        </div>
+                      </div>     
+                    </div>
+                  </div>
+                  <div id="div_Plano" class="flex-column div_Gerar">
+                    <div id="GerarPlano"  class="Buttons_Controle GerarPlano Buttons_Gerar center"> Gerar Plano </div>
+                    <div id="div_lista_planos" class="flex-column displayFalse">
+                   </div>
+                  </div>
+                  <div id="div_ElementoHtml" class="flex-column div_Gerar">
+                    <div id="GerarElemento"  class="center Buttons_Controle GerarElemento Buttons_Gerar"> Gerar Elemento Html </div>
+                    <div id="div_elementoHtmlListaDefault" class="flex-column displayFalse">  
+                      <div id="div_elementoHtmlDefault" class="flex-column displayTrue">
+                        <div id="elementoHtmlDefault" class="displayTrue center">
+                          Default
+                        </div>
+                        <div id="div_lista_elementoHtml" class="flex-column displayFalse">
+                          <div id="div_elementoHtml_id" typeElementoHtml="id"> 
+                            <input id="input_elementoHtml_id" class="filho_lista_elementoHtml" placeholder="Digite a Indentificação"></input>  
+                          </div>
+                          <div id="div_elementoHtml_class" typeElementoHtml="class"> 
+                            <input id="input_elementoHtml_class" class="filho_lista_elementoHtml" placeholder="Digite a class"></input>  
+                          </div>
+                          <div id="div_elementoHtml_type" typeElementoHtml="type"> 
+                            <input id="input_elementoHtml_type" class="filho_lista_elementoHtml" placeholder="Digite o tipo de elemento"></input>  
+                          </div>
+                          <div id="div_elementoHtml_pai" typeElementoHtml="pai"> 
+                            <input id="input_elementoHtml_pai" class="filho_lista_elementoHtml" placeholder="Digite o elemento pai"></input>  
+                          </div>
+                          <div id="div_elementoHtml_width" typeElementoHtml="width"> 
+                            <input id="input_elementoHtml_width" class="filho_lista_elementoHtml" placeholder="Digite a largura"></input>  
+                          </div>
+                          <div id="div_elementoHtml_height" typeElementoHtml="height"> 
+                            <input id="input_elementoHtml_height" class="filho_lista_elementoHtml" placeholder="Digite a altura"></input>  
+                          </div>
+                          <div id="div_elementoHtml_gerar"> 
+                            <div id="button_elementoHtml_gerar" class="filho_lista_elementoHtml"> Gerar Elemento Html </div>  
+                          </div>
+                        </div>
+                      </div>
+                      <div id="elementoHtmlPreDefault" class="displayTrue center">
+                        PreDefault
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div id="div_input_vertical" class="flex-row displayFalse"> 
+                      <div class="flex-column">
+                          <input id="input_vertical_altura" class="input_vertical input_reta" type="text" placeholder="Digite a altura da reta"></input>
+                          <input id="input_vertical_nome" class="input_vertical input_reta" type="text" placeholder="Digite o nome da reta"></input>
+                      </div>    
+                      <button id="button_input_vertical"  class="Buttons_Controle button_reta"> Definir Reta </button>
+                  </div>
+                  <div id="div_input_horizontal" class="flex-row displayFalse"> 
+                    <div class="flex-column">
+                        <input id="input_horizontal_width" class="input_horizontal input_reta" type="text" placeholder="Digite a largura da reta"></input>
+                        <input id="input_horizontal_nome" class="input_horizontal input_reta" type="text" placeholder="Digite o nome da reta"></input>
+                    </div>    
+                    <button id="button_input_horizontal"  class="Buttons_Controle button_reta"> Definir Reta </button>
+                  </div>
+                  <div id="div_input_transistor_basic" class="flex-row displayFalse div_input_transistor"> 
+                    <div class="flex-column">
+                        <input id="input_transistor_tipo" class="input_transistor" type="text" placeholder="Digite o tipo do transistor"></input>
+                        <input id="input_transistor_nome" class="input_transistor" type="text" placeholder="Digite o nome do transistor"></input>
+                        <input id="input_transistor_largura" class="input_transistor" type="text" placeholder="Digite a largura do transistor"></input>
+                        <input id="input_transistor_deslocamentoTo" class="input_transistor" type="text" placeholder="Digite a posição inicial"></input>
+                    </div>    
+                    <button id="button_input_transistor_basic"  class="Buttons_Controle button_input_transistor"> Definir Transistor </button>
+                </div>           
+              </div>
+              <canvas id="myCanvas"></canvas>
+           </div>  
+      </div>
+      
+
+    </main>
+    <footer>
+      <p>Desenvolvido por Gabriel</p>
+    </footer>
+  </section>
+
+  <div id="elementosGeraisHtml">
+  </div>
+  <div id="elementosRedimensionar">
+  </div>
+  <div id="div_ponto_ligacao" class="nullDimensoes">
+  </div>
+  <div class="nullDimensoes">
+    <div id="div_menuManipulacaoHtml" class="flex-column displayFalse">
+      <div id="menuManipulacaoHtml_Redimensionar"  class="center Buttons_Controle Buttons_Edit"> Redimensionar </div>
+      <div id="menuManipulacaoHtml_Remover"  class="center Buttons_Controle Buttons_Edit"> Remover </div>
+      <div id="menuManipulacaoHtml_Adicionar"  class="center Buttons_Controle Buttons_Edit_1 flex-column displayFalse">
+         <div id="menuManipulacaoHtml_Adicionar_titulo"  class="center"> Adicionar </div>
+         <div id="menuManipulacaoHtml_Adicionar_lista" class="flex-column displayFalse">
+          <div id="menuManipulacaoHtml_Adicionar_lista_Tipo"  class="center Buttons_Edit_3 flex-column"> 
+            <div id="menuManipulacaoHtml_Adicionar_lista_Tipo_titulo"  class="center Buttons_Edit_5">
+              Defina o Tipo de Elemento
+            </div>
+            <div id="menuManipulacaoHtml_Adicionar_lista_Tipo_textEdit"  class="center flex-row displayFalse">
+              <input id="menuManipulacaoHtml_Adicionar_lista_Tipo_textEdit_input" class="" placeholder="Digite o Tipo de Elemento">
+              <div id="menuManipulacaoHtml_Adicionar_lista_Tipo_textEdit_button" class="center Buttons_Edit_4" >
+                Adicionar Elemento
+              </div>
+            </div>
+          </div>
+          <div id="menuManipulacaoHtml_Adicionar_lista_PreDefault"  class="center Buttons_Controle Buttons_Edit_3"> Elemento pré-definido </div>
+         </div>
+      </div>
+      <div id="menuManipulacaoHtml_Estilo"  class="center Buttons_Controle Buttons_Edit_1 flex-column"> 
+        <div id="menuManipulacaoHtml_Estilo_titulo" class="center">
+          Estilo
+        </div> 
+        <div id="menuManipulacaoHtml_Estilo_textArea" class="center flex-row displayFalse">
+          <textarea id="textarea" name="textarea" rows="5" cols="30" placeholder="Digite um texto css"></textarea>
+        </div>
+        <div id="menuManipulacaoHtml_Estilo_button" class="displayFalse center Buttons_Edit_3">
+          Definir Estilo
+        </div>
+      </div>
+      <div id="menuManipulacaoHtml_Deslocar"  class="center Buttons_Controle Buttons_Edit">  Deslocar </div>
+    </div>
+  </div>
+  <div id="div_quadro_drag" class="nullDimensoes">
+    <div id="quadro_drag" class="displayFalse">
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./script/class_elementG.js"></script>
+  <script type="text/javascript" src="./script/red_ligar.js"></script>
+  <script type="text/javascript" src="./script/redefinir.js"></script>
+  <script type='text/javascript' src='./script/CppMain.js'></script>
+  <script type='text/javasrcipt' src='./script/CppAnimation.js'></script>
+  <script type='text/javasrcipt' src='./script/ligarDesligarEntrada.js'></script>
+  <script type="text/javascript" src="./script/quadro_drag.js"></script>
+  <script type="text/javascript" src="./script/obj_arrastado.js"></script>
+  <script type="text/javascript" src="./script/onclick_caixa_xy.js"></script>
+  <script type="text/javascript" src="./script/ondrop_caixa_xy.js"></script>
+  <script type="text/javascript" src="./script/onmouseover_caixa_xy.js"></script>
+  <script type="text/javascript" src="./script/onmouseout_caixa_xy.js"></script>
+  <script type="text/javascript" src="./script/ondrag_caixa_xy.js"></script>
+  <script type="text/javascript" src="./script/class_ponto.js"></script>
+  <script type="text/javascript" src="./script/gerarFila.js"></script>
+  <script type="text/javascript" src="./script/gerarCaixa.js"></script>
+  <script type="text/javascript" src="./script/plano.js"></script>
+  <script type="text/javascript" src="./script/controle.js"></script>
+  <script type="text/javascript" src="./script/gerarReta.js"></script>
+  <script type="text/javascript" src="./script/split.js"></script>
+  <script type="text/javascript" src="./script/Deslocar.js"></script>
+  <script type="text/javascript" src="./script/class_reta.js"></script>
+  <script type="text/javascript" src="./script/display_lista_transistor.js"></script>
+  <script type="text/javascript" src="./script/display_inputs_transistor.js"></script>
+  <script type="text/javascript" src="./script/onclick_vertical.js"></script>
+  <script type="text/javascript" src="./script/onclick_horizontal.js"></script>
+  <script type="text/javascript" src="./script/onclick_button_input_vertical.js"></script>
+  <script type="text/javascript" src="./script/onclick_button_input_horizontal.js"></script>
+  <script type="text/javascript" src="./script/onclick_filho_lista_transistor.js"></script>
+  <script type="text/javascript" src="./script/onclick_div_transistor_basic.js"></script>
+  <script type="text/javascript" src="./script/class_transistor.js"></script>
+  <script type="text/javascript" src="./script/teste_transistor.js"></script>
+  <script type="text/javascript" src="./script/alterarClickTransistor1.js"></script>
+  <script type="text/javascript" src="./script/alterarClickTransistor2.js"></script>
+  <script type="text/javascript" src="./script/onclick_AtivarDeslocamento.js"></script>
+  <script type="text/javascript" src="./script/teste_class_elemeng.js"></script>
+  <script type="text/javascript" src="./script/iteration.js"></script>
+  <script type="text/javascript" src="./script/canvas.js"></script>
+  <script type="text/javascript" src="./script/teste_subCaixa.js"></script>
+  <script type="text/javascript" src="./script/if_transistor.js"></script>
+  <script type="text/javascript" src="./script/if_transistor_text.js"></script>
+  <script type="text/javascript" src="./script/if_transistor_Invalido.js"></script>
+  <script type="text/javascript" src="./script/teste_deslocar.js"></script>
+  <script type="text/javascript" src="./script/gerarReta_vertical.js"></script>
+  <script type="text/javascript" src="./script/gerarReta_horizontal.js"></script>
+  <script type="text/javascript" src="./script/class_reta2.js"></script>
+  <script type="text/javascript" src="./script/analise_transistors.js"></script>
+  <script type="text/javascript" src="./script/if_and.js"></script>
+  <script type="text/javascript" src="./script/if_or.js"></script>
+  <script type="text/javascript" src="./script/if_n.js"></script>
+  <script type="text/javascript" src="./script/convert_boolean.js"></script>
+  <script type="text/javascript" src="./script/onclick_entrada_inicial.js"></script>
+  <script type="text/javascript" src="./script/onclick_entrada_final.js"></script>
+  <script type="text/javascript" src="./script/ondrag_entrada.js"></script>
+  <script type="text/javascript" src="./script/ondrop_entrada.js"></script>
+  <script type="text/javascript" src="./script/entrada_inicial.js"></script>
+  <script type="text/javascript" src="./script/entrada_final.js"></script>
+  <script type="text/javascript" src="./script/entrada_text.js"></script>
+  <script type="text/javascript" src="./script/ondrop_entrada_inicial_.js"></script>
+  <script type="text/javascript" src="./script/myScript.js" canvas="myCanvas"></script>
+  <script type="text/javascript" src="./script/class_transistor2.js"></script>
+  <script type="text/javascript" src="./script/IntNegativo.js"></script>
+  <script type="text/javascript" src="./script/newProject.js"></script>
+  <script type="text/javascript" src="./script/gerarTransistor.js"></script>
+  <script type="text/javascript" src="./script/if_entrada_Invalida.js"></script>
+  <script type="text/javascript" src="./script/px.js"></script>
+  <script type="text/javascript" src="./script/deslocar_ligar.js"></script>
+  <script type="text/javascript" src="./script/ligar_xy_2.js"></script>
+  <script type="text/javascript" src="./script/ligar_xy_3.js"></script>
+  <script type="text/javascript" src="./script/ligar.js"></script>
+  <script type="text/javascript" src="./script/ExibirListaHeader.js"></script>
+  <script type="text/javascript" src="./script/AnalisarIp2.js"></script>
+  <script type="text/javascript" src="./script/AnalisarIp.js"></script>
+  <script type="text/javascript" src="./script/DefinirUsuario.js"></script>
+  <script type="text/javascript" src="./script/DefinirUsuario2.js"></script>
+  <script type="text/javascript" src="./script/DefinirUsuarioGeral.js"></script>
+  <script type="text/javascript" src="./script/ElementoHtml.js"></script>
+  <script type="text/javascript" src="./script/POSTip.js"></script>
+  <script type="text/javascript" src="./script/onLoadIp.js"></script>
+  <script type="text/javascript" src="./script/PUTip.js"></script>
+  <script type="text/javascript" src="./script/Sair.js"></script>
+  <script type="text/javascript" src="./script/gerarElementoHtml.js"></script>
+  <script type="text/javascript" src="./script/ponto_ligacao.js"></script>
+  <script type="text/javascript" src="./script/if_ponto_ligacao.js"></script>
+  <script type="text/javascript" src="./script/deslocar_mouse.js"></script>
+  <script type="text/javascript" src="./script/documentEvent.js"></script>
+  <script type="text/javascript" src="./script/gerarCorrente.js"></script>
+  <script type="text/javascript" src="./script/resistirCorrente.js"></script>
+  <script type="text/javascript" src="./script/gerarCorrente_ponto_ligacao.js"></script>
+  <script type="text/javascript" src="./script/resistirCorrente_ponto_ligacao.js"></script>
+  <script type="text/javascript" src="./script/Elementos_redimensionar.js"></script>
+  <script type="text/javascript" src="./script/if_Redimensionar.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Redimensionar.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Remover.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Adicionar_titulo.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Adicionar_lista_Tipo_textEdit_button.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Adicionar_lista_Tipo_titulo.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Estilo.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Estilo_titulo.js"></script>
+  <script type="text/javascript" src="./script/menuManipulacaoHtml_Estilo_button.js"></script>
+  <script src='./script/paper/dist/paper-core.js'></script>
+  <script src='./script/paper/dist/paper-core.min.js'></script>
+  <script src='./script/paper/dist/paper-full.js'></script>
+  <script src='./script/paper/dist/paper-full.min.js'></script>
+
+</body>
+
+</html>
