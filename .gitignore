@@ -1,2 +1,12 @@
-/node-express/node_modules
-/cppSever/webSever/node_modules
+node-express/node_modules
+cppSever/webSever/node_modules
+cppSever/webSever/node_modules/debug/src/browser.js
+cppSever/webSever/node_modules/.bin/nodemon
+cppSever/webSever/node_modules/debug/LICENSE
+cppSever/webSever/node_modules/debug/README.md
+cppSever/webSever/node_modules/debug/src/browser.js
+.gitignore
+cppSever/webSever/node_modules/nodemon/bin/nodemon.js
+cppSever/webSever/node_modules/nodemon/README.md
+.gitignore
+cppSever/webSever/node_modules/nodemon/bin/nodemon.js

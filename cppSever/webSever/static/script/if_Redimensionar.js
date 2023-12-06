@@ -260,14 +260,14 @@ const if_Redimensionar = (e, eventDrag) => {
                 
             }           
 
-        Deslocar_posAtual(Rd_OBJ.v1, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v1.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v1.getBoundingClientRect().top);
-        Deslocar_posAtual(Rd_OBJ.v2, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.v2.getBoundingClientRect().right, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v2.getBoundingClientRect().top);
-        Deslocar_posAtual(Rd_OBJ.v3, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v3.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v3.getBoundingClientRect().bottom);
-        Deslocar_posAtual(Rd_OBJ.v4, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v4.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.v4.getBoundingClientRect().bottom); 
-        Deslocar_posAtual(Rd_OBJ.vertice_topLeft, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.vertice_topLeft.getBoundingClientRect().left, (Rd_OBJ.parent.getBoundingClientRect().top - 0.1*window.innerWidth*0.01) - Rd_OBJ.vertice_topLeft.getBoundingClientRect().top);
-        Deslocar_posAtual(Rd_OBJ.vertice_topRight, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.vertice_topRight.getBoundingClientRect().right, (Rd_OBJ.parent.getBoundingClientRect().top - 0.1*window.innerWidth*0.01) - Rd_OBJ.vertice_topRight.getBoundingClientRect().top);
-        Deslocar_posAtual(Rd_OBJ.vertice_bottomLeft, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.vertice_bottomLeft.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.vertice_bottomLeft.getBoundingClientRect().bottom);
-        Deslocar_posAtual(Rd_OBJ.vertice_bottomRight, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.vertice_bottomRight.getBoundingClientRect().right, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.vertice_bottomRight.getBoundingClientRect().bottom);
+            Deslocar_posAtual(Rd_OBJ.v1, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v1.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v1.getBoundingClientRect().top);
+            Deslocar_posAtual(Rd_OBJ.v2, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.v2.getBoundingClientRect().right, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v2.getBoundingClientRect().top);
+            Deslocar_posAtual(Rd_OBJ.v3, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v3.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v3.getBoundingClientRect().bottom);
+            Deslocar_posAtual(Rd_OBJ.v4, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v4.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.v4.getBoundingClientRect().bottom); 
+            Deslocar_posAtual(Rd_OBJ.vertice_topLeft, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.vertice_topLeft.getBoundingClientRect().left, (Rd_OBJ.parent.getBoundingClientRect().top - 0.1*window.innerWidth*0.01) - Rd_OBJ.vertice_topLeft.getBoundingClientRect().top);
+            Deslocar_posAtual(Rd_OBJ.vertice_topRight, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.vertice_topRight.getBoundingClientRect().right, (Rd_OBJ.parent.getBoundingClientRect().top - 0.1*window.innerWidth*0.01) - Rd_OBJ.vertice_topRight.getBoundingClientRect().top);
+            Deslocar_posAtual(Rd_OBJ.vertice_bottomLeft, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.vertice_bottomLeft.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.vertice_bottomLeft.getBoundingClientRect().bottom);
+            Deslocar_posAtual(Rd_OBJ.vertice_bottomRight, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.vertice_bottomRight.getBoundingClientRect().right, Rd_OBJ.parent.getBoundingClientRect().bottom - Rd_OBJ.vertice_bottomRight.getBoundingClientRect().bottom);
         //Deslocar_posAtual(Rd_OBJ.parent, e.getBoundingClientRect().left - Rd_OBJ.parent.getBoundingClientRect().right, e.getBoundingClientRect().bottom - Rd_OBJ.parent.getBoundingClientRect().top);
         //Deslocar_posAtual(Rd_OBJ.parent, eventDrag.x - Rd_OBJ.parent.getBoundingClientRect().right, eventDrag.y - Rd_OBJ.parent.getBoundingClientRect().top);
         
