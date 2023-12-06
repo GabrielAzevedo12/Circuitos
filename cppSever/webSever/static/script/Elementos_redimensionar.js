@@ -121,7 +121,7 @@ const Def_Redimensionar = (elementParent) => {
 */
         //var [ep_d] = [elementParent.getBoundingClientRect()];
 
-        Rd_OBJ.parent = elementParent;
+        Rd_OBJ.parent = elementParent;v
 
         Rd_OBJ.v1["style"]["height"] = elementParent.clientHeight + "px";
         Rd_OBJ.v1["style"]["width"] = 0.1*window.innerWidth*0.01 + "px"

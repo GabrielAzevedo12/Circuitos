@@ -259,7 +259,7 @@ const if_Redimensionar = (e, eventDrag) => {
             Rd_OBJ.v4["style"]["width"] = Rd_OBJ.parent.clientWidth + "px";
                 
             }           
-   
+
         Deslocar_posAtual(Rd_OBJ.v1, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v1.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v1.getBoundingClientRect().top);
         Deslocar_posAtual(Rd_OBJ.v2, Rd_OBJ.parent.getBoundingClientRect().right - Rd_OBJ.v2.getBoundingClientRect().right, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v2.getBoundingClientRect().top);
         Deslocar_posAtual(Rd_OBJ.v3, Rd_OBJ.parent.getBoundingClientRect().left - Rd_OBJ.v3.getBoundingClientRect().left, Rd_OBJ.parent.getBoundingClientRect().top - Rd_OBJ.v3.getBoundingClientRect().bottom);
